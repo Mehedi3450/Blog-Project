@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+        <!--Main css-->
+        <link rel="stylesheet" href="style.css">
+        <!--CSS for desktop-->
+        <link rel="stylesheet" href="tablet.css">
+        <!--CSS for mobile-->
+        <link rel="stylesheet" href="desktop.css" media="screen and (min-width : 600px)">
+        <!--google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <!--Font awosome icon-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+        <title>This is a Project</title>
+</head>
+<body>
+
+    <!--header starts here-->
+    <header id="blog-header">
+        <figure class="logo-figure">
+            <a href="#"><i class="fab fa-autoprefixer logo"></i></a>
+        </figure>
+        <nav aria-label="Main Menu" id="menu" class="hidden">
+            <ul role="menubar" aria-label="Main Menu">
+                <li role="none"><a href="#" class="nav-link">Home</a></li>
+                <li role="none"><a href="#about-me" class="nav-link">About Me</a></li>
+                <li role="none"><a href="#archaive" class="nav-link">Archaives</a></li>
+                <li role="none"><a href="#blog-posts" class="nav-link">Blog Postes</a></li>
+                <li role="none"><a href="#contract" class="nav-link">Contract</a></li>
+            </ul>
+        </nav>
+        <i class="fas fa-bars fa-4x" id="menu-icon"></i>
+    </header>
+    <!--header ends here-->
+
+    <!-----main starts here----->
+    <main>
+
+    <!------banner starts here------->
+    <section id="blog-banner-sectio">
+       <article>
+           <h1 id="banner-heading">Web Development</h1>
+           <p id="banner-description" class="text-justyfy">
+            I am a computer science student. I learn web development for grow my career brightness. I have started 
+            learning web development 2 years ago and still learning. I started learning web development width
+            with HTML, CSS and Bootstrap. Now, I am learning Javascript. I must say web development demands
+            more patience and consistency.
+           </p>
+       </article>
+       <aside><img src="image/cover-photo.jpg" alt="Cover Photo"  class="banner-img"></aside>
+    </section>
+
+    <!------banner ends here------->
+
+    <!------ about me starts here ----->
+    <section id="about-me" class="section-center">
+        <h1 id="section-heading" class="text-white">About Me</h1>
+
+        <!------education----->
+        <div class="card-container">
+            <div class="card">
+                <h3 class="card-header">Education</h3>
+                <div class="card-description">
+                    <h3>School :</h3>
+                    <p>Nasirkot High School.</p>
+                    <h3>Collage :</h3>
+                    <p>Al-Amin Academy School & Collage.</p>
+                    <h3>University :</h3>
+                    <p>Comilla Victiria Univeersity Collage.</p>
+                </div>
+                <button type="submit" class="card-btn btn">Read more</button>
+            </div>
+
+        <!------skills----->
+            <div class="card">
+                <h3 class="card-header">Skills</h3>
+                <div class="card-description">
+                    <h3>Design :</h3>
+                    <p>Adobe Illustrator</p>
+                    <h3>Development</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                        <li>Javascript</li>
+                    </ul>
+                </div>
+                <button type="submit" class="card-btn btn">Read more</button>
+            </div>
+
+        <!------exprince----->
+            <div class="card">
+                <h3 class="card-header">Exprience</h3>
+                <div class="card-description">
+                    <h3>Upwork :</h3>
+                    <p>Full Strack web developer.</p>
+                    <h3>Content creator :</h3>
+                    <p>Teach web design and development on YouTube.</p>
+                    <h3>Founder :</h3>
+                    <p>1. Coding Easy facebook page.</p>
+                    <p>2. Colion a Coligue Union based social media.</p>
+                </div>
+                <button type="submit" class="card-btn btn">Read more</button>
+            </div>
+        </div>
+    </section>
+    <!------ about me ends here ----->
+
+    <!-------archaive starts here-------->
+    <section id="archaive" class="section-center">
+        <h2 id="section-heading">Archaives</h2>
+        <div class="archaive-container">
+            <ul class="archive-image-lists">
+                <li class="archive-image-list">
+                    <img src="image/archives/pic1.jpg" alt="Archive image" class="archive-image">
+                </li>
+                <li class="archive-image-list">
+                    <img src="image/archives/pic2.jpg" alt="Archive image" class="archive-image">
+                </li>
+                <li class="archive-image-list">
+                    <img src="image/archives/pic3.jpg" alt="Archive image" class="archive-image">
+                </li>
+                <li class="archive-image-list">
+                    <img src="image/archives/pic4.jpg" alt="Archive image" class="archive-image">
+                </li>
+                <li class="archive-image-list">
+                    <img src="image/archives/pic5.jpg" alt="Archive image" class="archive-image">
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-------archaive ends here-------->
+
+    <!-------blog posts starts here ----->
+    <section id="blog-posts" class="section-center">
+        <h2 id="section-heading">Blog Posts</h2>
+        <div class="blog-post">
+            <aside class="blog-posts-aside">
+                <img src="image/archives/pic2.jpg" alt="blog-image" class="blog-image">
+            </aside>
+            <article class="blog-content">
+                <h2 class="blog-heading">Blog 1</h2>
+                <h3 class="blog-sub-heading">My first Loptop</h3>
+                <p class="blog-description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing 
+                    elit. Numquam sit cupiditate quos voluptate deleniti, animi sequi earum 
+                    officiis consequatur! Nam dolorum voluptatibus perferendis sint error!
+                </p>
+                <button type="submit" class="btn blog-btn">Lern more</button>
+            </article>
+        </div>
+        <div class="blog-post">
+            <aside class="blog-posts-aside">
+                <img src="image/archives/pic2.jpg" alt="blog-image" class="blog-image">
+            </aside>
+            <article class="blog-content">
+                <h2 class="blog-heading">Blog 2</h2>
+                <h3 class="blog-sub-heading">My first Loptop</h3>
+                <p class="blog-description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing 
+                    elit. Numquam sit cupiditate quos voluptate deleniti, animi sequi earum 
+                    officiis consequatur! Nam dolorum voluptatibus perferendis sint error!
+                </p>
+                <button type="submit" class="btn blog-btn">Lern more</button>
+            </article>
+        </div>
+        <div class="blog-post">
+            <aside class="blog-posts-aside">
+                <img src="image/archives/pic2.jpg" alt="blog-image" class="blog-image">
+            </aside>
+            <article class="blog-content">
+                <h2 class="blog-heading">Blog 3</h2>
+                <h3 class="blog-sub-heading">My first Loptop</h3>
+                <p class="blog-description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing 
+                    elit. Numquam sit cupiditate quos voluptate deleniti, animi sequi earum 
+                    officiis consequatur! Nam dolorum voluptatibus perferendis sint error!
+                </p>
+                <button type="submit" class="btn blog-btn">Lern more</button>
+            </article>
+        </div>
+    </section>
+    <!-------blog posts ends here ----->
+
+    <!------ contract me starts here ------>
+    <section id="contract" class="section-center">
+        <h2 id="section-heading" class="text-white">Contract Me</h2>
+        <form action="" id="contract-form">
+            <div class="form-control">
+                <label for="name">Name</label>
+                <input type="text" id="name" required autocomplete="name"/>
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" id="email" required autocomplete="email"/>
+            </div>
+            <div class="form-control">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" placeholder="Type your message here"></textarea>
+            </div>
+            <div class="form-control form-control-btn">
+                <button type="submit" class="btn contract-btn">Submit</button>
+            </div>
+        </form>
+        </section>
+    <!------ contract me ends here ------>
+
+    </main>
+    <!-----main ends here----->
+
+    <!------ footer starts from here ------>
+    <footer>
+        <p class="copyright-text">Copyright &copy; by Mehedi Hasan. All rights reserved.</p>
+        <nav aria-label="footer Menu">
+            <ul role="menubar2" id="menubar2" aria-label="footer Menu">
+                <li role="none"><a href="https://fb.com/coddingeasy" target="blank" class="nav-link"><i class="fab fa-facebook footer-icon"></i></a></li>
+                <li role="none"><a href="https://www.instagram.com/mdmehedi2739/" target="blank" class="nav-link"><i class="fab fa-instagram footer-icon"></i></a></li>
+                <li role="none"><a href="https://twitter.com/mdmehedi345" target="blank" class="nav-link"><i class="fab fa-twitter footer-icon"></i></a></li>
+                <li role="none"><a href="https://www.youtube.com/channel/UCMSRxWRqyVbnGYMGfHGAh9w" target="blank" class="nav-link"><i class="fab fa-youtube footer-icon"></i></a></li>
+                <li role="none"><a href="https://www.linkedin.com/in/mehedi-hasan-70518b225/" target="blank" class="nav-link"><i class="fab fa-linkedin footer-icon"></i></a></li>
+            </ul>
+        </nav>
+    </footer>
+    <!------ footer ends from here ------>
+
+    <!-- Javascript file link -->
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
